@@ -10,11 +10,11 @@ if (user === "fede" & pass === "llave" ) {
     for (let i = 0; i < 3 ; i++) {
         n1 = prompt("Que numero queres multiplicar?")
         n2 = prompt("Por cual numero te gustaria multiplicarlo?")
-        alert(n1*n2)
+        alert("El resultado es: "+n1*n2)
     }
     alert("Listo por hoy! mañana vas a poder hacer 3 multiplicaciones mas.")
 }
 
 else {
-    alert("Contraseña incorrecta")
+    alert("Usuario o Contraseña incorrecta")
 }
